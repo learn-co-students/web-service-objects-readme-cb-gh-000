@@ -20,7 +20,7 @@ We want to move our business logic out of our controllers, but how? We aren't go
 We are, however, dealing with data from *someone's* database, and the business logic of consuming and transforming that data, so we need something else.
 
 **Service Objects**.
-
+ 
 A service object is an object that we can use to encapsulate the inner workings of some business or *domain* logic that isn't strictly the responsibility of a single `ActiveRecord` model.
 
 If you can imagine a complex CRM system, the act of creating a new customer might involve also setting up a sales pipeline, creating tasks and calendar items for a salesperson, and other related stuff. That all doesn't belong in the `Customer` model, but it also certainly doesn't belong in the `CustomersController`, so we would encapsulate it into a service object.
