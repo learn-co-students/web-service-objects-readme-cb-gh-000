@@ -11,7 +11,7 @@ We'll be continuing with the Foursquare Coffee Shop app. You can build on the on
 
 ## Service Objects
 
-Congrats on getting your Foursquare Venue Tips to work! While working on these features, you might have started to wonder if everything we're doing: talking to the Foursquare API, parsing Foursquare data, really belongs in our controllers.
+Congrats on getting your Foursquare Venue Tips to work! While working on these features, you might have started to wonder if everything we're doing: talking to the Foursquare API, parsing Foursquare data, really belongs in our controllers. .
 
 If we think back to *Single Responsibility Principle*, and the purpose of the components of MVC, we can come to the conclusion that we're forcing our controllers to know too much about Foursquare and the business logic of the data we get from the API when controllers are really supposed to be shuffling data back and forth between models and views.
 
